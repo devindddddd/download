@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+ <key>items</key>
+ <array>
+  <dict>
+   <key>assets</key>
+   <array>
+    <dict>
+     <key>kind</key>
+     <string>software-package</string>
+     <key>url</key>
+     <!-- http或者https链接的ipa文件地址 -->
+     <string>https://uplus100-oss.oss-cn-beijing.aliyuncs.com/file/download/20241122170032.ipa</string>
+    </dict>
+    <dict>
+     <key>kind</key>
+     <string>full-size-image</string>
+     <key>needs-shine</key>
+     <true/>
+     <key>url</key>
+     <!-- http或者https链接的应用图标 正常尺寸 （都用一个也行, 分辨率没强制要求）-->
+     <string>https://uplus724.com/download/logo_big.png</string>
+    </dict>
+    <dict>
+     <key>kind</key>
+     <string>display-image</string>
+     <key>needs-shine</key>
+     <true/>
+     <key>url</key>
+     <!-- http或者https链接的应用图标，最小尺寸 （都用一个也行, 分辨率没强制要求） -->
+     <string>https://uplus724.com/download/logo_big.png</string>
+    </dict>
+   </array>
+   <key>metadata</key>
+   <dict>
+    <key>bundle-identifier</key>
+    <!-- BundleID，应用的包名 -->
+    <string>com.upluss</string>
+    <key>bundle-version</key>
+    <!-- 版本号 -->
+    <string>1.5.9</string>
+    <key>kind</key>
+    <string>software</string>
+    <key>UPlus</key>
+    <!-- 安装app时的提示名称 -->
+    <string>UPlus</string>
+   </dict>
+  </dict>
+ </array>
+</dict>
+</plist>
